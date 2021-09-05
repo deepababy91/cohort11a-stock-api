@@ -8,11 +8,8 @@ const yahooStockPrices=require('yahoo-stock-prices')
 //UPDATE-perform PUT request on http://localhost:3000/api/v1/stocks/:id
 //CREATE-perform POST request on http://localhost:3000/api/v1/stocks
 
-//NON-REST-CUSTOM
-//GET /api/v1/stocks/search/AAPL
-
 router.get('/search/:symbol', async function(req,res,next){
-  //console.log(req.query)
+//console.log(req.query)
 //console.log(req.params)
 
 try{
